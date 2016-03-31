@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta  charset=UTF-8" />
+	<link rel="stylesheet" href="task5.css">
+	<title>Task_5</title>
+</head>
+<body>
+<div class="header">
+	<img src="images/2.png" title="标志" alt="Logo" />
+	<div class="navigation">
+		<span><a href="#">导航链接一</a></span>
+		<span><a href="#">导航链接二</a></span>
+		<span><a href="#">导航链接三</a></span>
+		<span><a href="#">导航链接四</a></span>
+	</div>
+</div>
+<div class="all">
+	<aside>
+		<h2>这里以后是一个侧栏，这是侧栏的标题</h2>
+		<h2>侧栏注册窗口标题</h2>
+	<form method="post" action="http://ife.baidu.com">
+		<p><label for="email">请输入邮箱地址：<input id="email" type="email" placeholder="user@email.com" name="email" style="width:120px" /></label></p>
+		<p>邮箱地址请按要求格式输入</p>
+		<p><label for="password">请输入密码：&nbsp;&nbsp;<input id="password" type="password" placeholder="6-16位英文数字密码" name="password"  style="width:120px" /></label></p>
+		<p><label for="repeat-password"> 请重复输入密码：<input id="repeat-password" type="password" placeholder="重复密码" name="repeat-password" style="width:120px" /></label></p>
+		<p>密码请为6-16位英文数字</p>
+		<p>
+			<span>性别：</span>
+			<label for="man"><input id="man" checked value="男" type="radio" name="gender" />男</label>
+			<label for="woman"><input id="woman" value="女" type="radio" name="gender" />女</label>
+		</p>
+		<p>
+			<label for="city">
+				城市:
+				<select name="city" id="city">
+					<option value="1" selected label="北京">北京</option>
+					<option value="2" label="上海">上海</option>
+					<option value="3" label="广州">广州</option>
+					<option value="4" label="武汉">武汉</option>
+					<option value="5" label="成都">成都</option>
+				</select>
+			</label>
+		</p>
+		<p>
+			<span>爱好：</span>
+			<label for="sport"><input type="checkbox" id="sport" name="sport" /> 运动</label>
+			<label for="art"><input type="checkbox" id="art" name="art" /> 艺术</label>
+			<label for="science"><input type="checkbox" id="science" name="science" /> 科学</label>
+		</p>
+		<span class="discription">&nbsp;&nbsp;个人描述：</span>
+		<textarea name="detail" id="detail" wrap="hard" title="describe">这是一个多行输入框，输入您的个人描述</textarea>
+</form>
+		<br />
+		<input type="submit" value="确认提交"  id="button"/>
+	</aside>
+<div class="wrapper">
+<article>
+	<hgroup>
+		<h1>文章一级标题</h1>
+		<h2>文章二级标题</h2>
+	</hgroup>
+		<p class="info">文章作者 文章发表时间</p>
+		<p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，</p><!--换行了<br />这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br />这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com">这里有个链接链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，<strong>这里有个粗体字</strong>这是一个很长很长的段<br />落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</p>
+		<img src="images/1.jpg" title="大海" alt="sea" />
+		<p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<br />这是一个很长很长的段落，换行了<br />这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<strong>这里有个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com" target="_blank">这里有个链接点击后打开新窗口链接<br />到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是<br />一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</p>
+</article>
+<article>
+	<hgroup>
+		<h1>另一篇文章一级标题</h1>
+		<h2>文章二级标题</h2>
+	</hgroup>
+	<p class="info">文章作者 文章发表时间</p>
+	<p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<br />换行了<br />这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br />这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com">这里有个链接链接到http://ife.baidu.com</a>这是一个很长很长的段落，这是一个很长很长的段落，<strong>这里有个粗体字</strong>这是一个很长很长的段<br />落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</p>-->
+	<img src="images/1.jpg" title="大海" alt="sea" />
+	<ul>
+		<li>列表项目一</li>
+		<li>列表项目二</li>
+		<li>列表项目三</li>
+	</ul>
+</article>
+<div class="picture">
+	<h1>图片</h1>
+	<figure>
+		<figcaption>好看的图片</figcaption>
+		<img src="images/1.jpg" title="大海" alt="sea" />
+	</figure>
+	<figure>
+		<figcaption>好看的图片</figcaption>
+		<img src="images/1.jpg" title="大海" alt="sea" />
+	</figure>
+	<figure>
+		<figcaption>好看的图片</figcaption>
+		<img src="images/1.jpg" title="大海" alt="sea" />
+	</figure>
+	<figure>
+		<figcaption>好看的图片</figcaption>
+		<img src="images/1.jpg" title="大海" alt="sea" />
+	</figure>
+	<figure>
+		<figcaption>好看的图片</figcaption>
+		<img src="images/1.jpg" title="大海" alt="sea" />
+	</figure>
+	<figure>
+		<figcaption>好看的图片</figcaption>
+		<img src="images/1.jpg" title="大海" alt="sea" />
+	</figure>
+	<figure>
+		<figcaption>好看的图片</figcaption>
+		<img src="images/1.jpg" title="大海" alt="sea" />
+	</figure>
+	<figure>
+		<figcaption>好看的图片</figcaption>
+		<img src="images/1.jpg" title="大海" alt="sea" />
+	</figure>
+	<figure>
+		<figcaption>好看的图片</figcaption>
+		<img src="images/1.jpg" title="大海" alt="sea" />
+	</figure>
+	<figure>
+		<figcaption>好看的图片</figcaption>
+		<img src="images/1.jpg" title="大海" alt="sea" />
+	</figure>
+</div>
+<article>
+	<hgroup>
+		<h1>最后一篇文章一级标题</h1>
+		<h2>文章二级标题</h2>
+	</hgroup>
+	<p class="info">文章作者 文章发表时间</p>
+	<ol>
+		<li>排名1</li>
+		<li>排名2</li>
+		<li>排名3</li>
+	</ol>
+	<p>下面是一个表格，给表格加了一个border="1"好让你看出是一个表格</p>
+	<table>
+		<thead>
+			<tr>
+				<th>表头</th>
+				<th>表头</th>
+				<th>表头</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>表内容单元格</td>
+				<td>表内容单元格</td>
+				<td><a href="#">操作</a></td>
+			</tr>
+			<tr>
+				<td>表内容单元格</td>
+				<td>表内容单元格</td>
+				<td><a href="#">操作</a></td>
+			</tr>
+			<tr>
+				<td>表内容单元格</td>
+				<td>表内容单元格</td>
+				<td><a href="#">操作</a></td>
+			</tr>
+			<tr>
+				<td>表内容单元格</td>
+				<td>表内容单元格</td>
+				<td><a href="#">操作</a></td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td>总计</td>
+				<td colspan="2">1000</td>
+			</tr>
+		</tfoot>
+	</table>
+</article>
+</div>
+	</div>
+<footer>版权所有&copy </footer>
+</body>
+</html>

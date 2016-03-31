@@ -1,0 +1,52 @@
+html{
+	background-color:white;
+}
+.wrapper{
+	overflow:auto;
+	margin:20px;
+	background-color:#eee;
+	border:1px solid #999;
+}
+.teamheader{
+	float:left;
+	width:170px;
+	height:80px;
+	margin:20px;
+	padding:20px 10px 20px 20px;
+	border:1px solid #999;
+	font-size:14px;
+}
+.teamheader span{
+	display:inline-block;
+	float:right;
+	width:78px;
+	height:80px;
+	vertical-align:top;
+	text-align:center;
+	
+}
+.teamheader img{
+	height:100%;
+	border:1px solid #999;
+}
+.teammate{
+	float:right;
+	width:82px;
+	margin:20px;
+	padding:0 20px 0 20px;
+	border:1px solid #999;
+}
+.matelogo{
+	width:80px;
+	height:80px;
+	margin:20px 0px 20px 0px;
+	border:1px solid #999;
+}
+.matelogo img{
+	width:100%;
+}
+.teamdiscription{
+	margin:20px 164px 20px 242px;
+	padding:20px;
+	border:1px solid #999;
+}
