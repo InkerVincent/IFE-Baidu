@@ -1,0 +1,22 @@
+@charset "UTF-8";
+.go-back-btn{position: absolute;left: 10px;top: 0;color: #fff;}
+.ui-tab-nav li.active{border-color: #91d4da;}
+.fa{color: #91d4da;}
+.ui-col-1 a{color: #333;}
+.ui-grid-trisect img{width: 100%;padding: 10px}
+.ui-headline, .ui-subtitle, .ui-title, .article{text-align: center;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ui-headline{font-size: 16px;font-weight: 500;}
+.ui-subtitle{font-size: 14px;color: #666;}
+.ui-panel-hd h2{line-height: 45px;font-size: 16px;height: 100%;}
+.ui-list .ui-img-square{width: 110px;height:100px;background-size: cover;border:1px solid #f60;border-radius: 2px;}
+.ui-list .ui-img-rectangle{width: 120px;height: 80px;border:1px solid #efefef;}
+.ui-grid-halve>li{padding-left:10px;padding-bottom: 10px;}
+.ui-grid-halve .article{background:#efefef;color: #333;font-weight: 600;padding: 10px;height: 45px;}
+.article-info-wrap{padding-left: 10px;min-height:80px;position: relative;display:flex;flex-direction:column;justify-content:space-between;}
+.article-info-wrap .ui-text{overflow: hidden;text-overflow: ellipsis;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;font-size: 17px;font-weight: 600;max-height:52px;}
+.article-info-wrap .post-info{width: 100%;color: #999;}
+.post-info .date{padding-left: 5px;}
+/*animation*/
+.carousel{animation:carousel 5s steps(4) infinite;-webkit-animation:carousel 5s steps(4) infinite;position: relative;-webkit-transition:left .3s ease-in;}
+@keyframes carousel{from {left:0;}to {left:-400%;}}
+-webkit-@keyframes carousel{from {left:0;}to {left:-400%;}}
