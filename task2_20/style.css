@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+#container{
+
+}
+
+#conso{
+    border: 1px solid;
+    background-color: #418c59;
+    position: relative;
+}
+
+#graph{
+    overflow: hidden;
+    background-color: #72b16a;
+    padding:50px 50px 80px 50px;
+}
+
+.item{
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    float:left;
+    margin:10px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    font-size:25px;
+    border-radius: 10px;
+    cursor: pointer;
+    animation: myanim 2s;
+}
+[class*=item]:hover{
+    animation: btnanim 2s;
+}
+[id*=btn]{
+    width:100px;
+    height: 50px;
+    margin: 10px;
+    font:20px "ºÚÌå";
+    border-radius: 10px;
+    background-color: chartreuse;
+}
+[id*=btn]:hover{
+    animation:btnanim 1s;
+}
+#myInput{
+    width:300px;
+    height:50px;
+    margin:0 10px;
+    text-align: center;
+    border-radius: 10px;
+    font:20px "ºÚÌå" ;
+    position: relative;
+    top:20px;
+}
+#mySearch{
+    width:200px;
+    height:50px;
+    margin:10px 10px 0 10px;
+    text-align: center;
+    border-radius: 10px;
+    font:20px "ºÚÌå" ;
+}
+
+@keyframes myanim {
+    0% {background-color: #f5e327;}
+    50%{transform: scale(1.1);}
+    100%{background-color: #000;}
+}
+@keyframes btnanim {
+    0% {}
+    100%{transform: scale(1.1);}
+}
