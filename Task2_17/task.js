@@ -1,6 +1,3 @@
-/**
- * Created by hansneil on 21/3/16.
- */
 /* 数据格式演示
  var aqiSourceData = {
  "北京": {
